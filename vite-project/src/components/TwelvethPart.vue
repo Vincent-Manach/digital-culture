@@ -21,9 +21,6 @@ export default {
     <h3>If we continue to improve our machines we will one day create one or more forms of super AI but we do not know how long it will take us to do it safely. If we admit that we are constantly improving our machines so that they can exceed the knowledge we have, we must admit that we are building a kind of god, and then we need to make sure that we can live safely and properly with him.</h3>
     <br>
     <h3>In conclusion, I would say that we must not be afraid of this, but rather we must seek to use robotics wisely, because it is an important part of our work. What is also important is to question the way robots of all kinds are produced and the fact that the population is set aside without being able to give their opinion on them.</h3>
-    <div id="footer">
-      <p>Vincent MANACHEM - M2DEV</p>
-    </div>
   </div>
 </template>
 
@@ -36,11 +33,6 @@ export default {
   padding-right: 50px;
 }
 .sectionTitle {
-  margin-bottom: 120px;
-}
-#footer {
-  position: relative;
-  text-align: center;
-  margin-top: 200px;
+  margin-bottom: 100px;
 }
 </style>

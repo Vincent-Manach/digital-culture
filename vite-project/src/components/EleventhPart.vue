@@ -27,4 +27,9 @@ export default {
   width: 70%;
   margin: 0 0 0 75px;
 }
+@media screen and (min-width: 1500px) and (max-width: 1700px) {
+  .midWidth img {
+    margin: 75px 0 0 75px;
+  }
+}
 </style>

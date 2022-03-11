@@ -46,4 +46,9 @@ export default {
   width: 80%;
   margin: 50px auto 0;
 }
+@media screen and (min-width: 1500px) and (max-width: 1700px) {
+  #definitionImg img {
+    margin: 125px auto 0;
+  }
+}
 </style>

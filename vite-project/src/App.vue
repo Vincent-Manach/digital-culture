@@ -31,9 +31,9 @@ export default {
     <SecondPart class="fullHeight"/>
     <ThirdPart class="fullHeight"/>
     <FourthPart class="fullHeight"/>
+    <FifthPart class="fullHeight"/>
   </div>
   <div id="robotics">
-    <FifthPart class="fullHeight"/>
     <SixthPart class="fullHeight"/>
     <SeventhPart class="fullHeight"/>
     <EigthPart class="fullHeight"/>
@@ -77,6 +77,7 @@ h2 {
   font-size: 2.5em;
 }
 h3 {
+  font-size: 18px;
   font-weight: 400;
 }
 .sectionMargin {
@@ -102,4 +103,9 @@ h3 {
   background: linear-gradient(to bottom, #00610d, #970000);
   border-bottom: 2px solid white;
 }
-</style>
+@media screen and (min-width: 1200px) and (max-width: 1500px) {
+  h3 {
+    font-size: 16px;
+  }
+}
+</style> 

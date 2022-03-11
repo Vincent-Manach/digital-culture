@@ -28,4 +28,9 @@ export default {
 .sectionTitle {
   margin-bottom: 100px;
 }
+@media screen and (min-width: 1500px) and (max-width: 1700px) {
+  .midWidth img {
+    margin: 75px 0 0 75px;
+  }
+}
 </style>
